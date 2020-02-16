@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "404.css",
+  "sources": [
+    "../../404.svelte"
+  ],
+  "sourcesContent": [
+    "<main>\n    <h1>404</h1>\n    <h2>Not found</h2>\n</main>\n\n<style>\n\tmain {\n\t\tpadding: 1em 2em;\n\t\tmax-width: 240px;\n\t\tmargin: 0 auto;\n\t}\n\n\th1 {\n\t\tcolor: #ff3e00;\n\t\ttext-transform: uppercase;\n\t\tfont-size: 4em;\n\t\tfont-weight: 100;\n    }\n    \n    h2 {\n\t\tcolor: #ff3e00;\n\t\ttext-transform: uppercase;\n\t\tfont-size: 2em;\n\t\tfont-weight: 100;\n\n    }\n\n\t@media (min-width: 640px) {\n\t\tmain {\n\t\t\tmax-width: none;\n\t\t}\n\t}\n</style>"
+  ],
+  "names": [],
+  "mappings": "AAMC,IAAI,cAAC,CAAC,AACL,OAAO,CAAE,GAAG,CAAC,GAAG,CAChB,SAAS,CAAE,KAAK,CAChB,MAAM,CAAE,CAAC,CAAC,IAAI,AACf,CAAC,AAED,EAAE,cAAC,CAAC,AACH,KAAK,CAAE,OAAO,CACd,cAAc,CAAE,SAAS,CACzB,SAAS,CAAE,GAAG,CACd,WAAW,CAAE,GAAG,AACd,CAAC,AAED,EAAE,cAAC,CAAC,AACN,KAAK,CAAE,OAAO,CACd,cAAc,CAAE,SAAS,CACzB,SAAS,CAAE,GAAG,CACd,WAAW,CAAE,GAAG,AAEd,CAAC,AAEJ,MAAM,AAAC,YAAY,KAAK,CAAC,AAAC,CAAC,AAC1B,IAAI,cAAC,CAAC,AACL,SAAS,CAAE,IAAI,AAChB,CAAC,AACF,CAAC"
+}
