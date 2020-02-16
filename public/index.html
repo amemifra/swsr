@@ -11,7 +11,7 @@
 	<link rel='stylesheet' href='/components/logo.css'>
 	
 	<script defer src='/components/logo.js'></script>
-	<script>
+	<script async>
 		navigator.serviceWorker.register('/render.js').then(() => {
 			setTimeout(() => location.assign(location.pathname), 1000)
 			setTimeout(() => document.querySelector('svg').style.opacity = '0', 800)
