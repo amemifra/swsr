@@ -22,7 +22,7 @@ self.addEventListener('fetch', function(event) {
     if (event.request.mode === 'navigate') {
       const txt = event.request.url.substr(event.request.url.lastIndexOf('/'))
       const value = routes.some(r => r == txt) 
-      ? txt == '/' ? 'home' : txt
+      ? txt == '/' ? 'home' : txt.substr(1)
       : '404'
 
       const html = `<!DOCTYPE html>
