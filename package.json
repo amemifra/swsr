@@ -2,7 +2,7 @@
   "name": "svelte-app",
   "version": "1.0.0",
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup -c --environment component:logo && rollup -c --environment component:home && rollup -c --environment component:404 && rollup -c --environment component:clone",
     "dev": "rollup -c -w",
     "start": "sirv public"
   },
