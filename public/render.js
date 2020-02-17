@@ -5,6 +5,8 @@ const assets = [
   '/components/header.css',
   '/components/home.js',
   '/components/home.css',
+  '/components/404.js',
+  '/components/404.css',
   '/components/clone.js',
   '/components/clone.css',
   '/favicon.png'
