@@ -11,14 +11,18 @@
 	<link rel='stylesheet' href='/components/logo.css'>
 	
 	<script defer src='/components/logo.js'></script>
+</head>
+
+<body>
+	
 	<script async>
 		navigator.serviceWorker.register('/render.js').then(() => {
+			// Ususally you can't appreciate the first rendering because reload happens too early
+			// After cache is ready sw render.js get the control and to trigger its start we reassign current location 
+			// So setTimeout of one second and you can appreciate a more app native like experince 
 			setTimeout(() => location.assign(location.pathname), 1000)
 			setTimeout(() => document.querySelector('svg').style.opacity = '0', 800)
 		})
 	</script>
-</head>
-
-<body>
 </body>
 </html>
