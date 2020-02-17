@@ -38,7 +38,7 @@ Navigate to [localhost:5000](http://localhost:5000). You should see your app run
 
 ## How it works
 
-SWSR is based on svelte component and vanilla javascript. It use [svelte](https://svelte.dev) as component compiler and a rendering based on vanilla javascript.
+SWSR is based on [Svelte](https://svelte.dev) component and [Vanilla Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript). It use [Svelte](https://svelte.dev) as component compiler and a rendering based on [Vanilla Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
 In index.html is instantiate into `navigator.serviceWorker` [render.js](https://github.com/amemifra/swsr/blob/master/public/render.js) the render engine of the application.
 
