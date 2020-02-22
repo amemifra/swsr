@@ -42,6 +42,8 @@ Navigate to [localhost:5000](http://localhost:5000). You should see your app run
 
 SWSR is based on [Svelte](https://svelte.dev) component and [Vanilla Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript). It use [Svelte](https://svelte.dev) as component compiler and a rendering based on [Vanilla Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
+It implement the [YAGNI Extreme programming paradigm](https://en.m.wikipedia.org/wiki/You_aren%27t_gonna_need_it) into DOM. It just render what we need and anthing else.
+
 In index.html is instantiate into `navigator.serviceWorker` [render.js](https://github.com/amemifra/swsr/blob/master/public/render.js) the render engine of the application.
 
 This solution code is a PoC of a render system based on service worker dynamic creation of http response (a PHP rendering idea into the sw).
